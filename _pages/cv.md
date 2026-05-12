@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<!-- This creates a nice, prominent download button -->
+[**📥 Download Resume**](/files/Prajna_Malettira_s_Resume.pdf){: .btn .btn--primary style="margin-bottom: 20px;"}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+* **Ph.D. in Electrical and Computer Engineering**, Purdue University (May, 2028)
+* **B.Tech in Electronics and Communication Engineering**, PES University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
+* Efficient Large Language Models
+* Neural Architecture Search
+* Model Compression via Structured Pruning
+* Generative Models
+* Memorization in ML models
+* Neuromorphic Computing
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
+* **TraceNAS: Zero-shot LLM Pruning via Gradient Trace Correlation** *(Arxiv 2026)*
+* **TopoPrune: Robust Data Pruning via Unified Latent Space Topology** *(ArXiv 2026)*
+* **.Unifying Global Topology Manifolds and Local Persistent Homology for Data Pruning** *(NeurIPS 2025 Symmetry and Geometry in Neural Representations Workshop.)*
+* **TSkips: Efficiency through explicit temporal delay connections in spiking neural networks.** *(TMLR 2025)*
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Technical Skills
+* **Languages & Tools:** Python · Bash · Git · MATLAB · Linux
+* **Frameworks:** PyTorch, Hugging Face, Timm, Latex, OpenCV
+* **Computing:** Distributed Training, SLURM, High-Performance Computing (HPC)
