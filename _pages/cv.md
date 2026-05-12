@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <!-- This creates a nice, prominent download button -->
-Download my resume here: [📥 Download Resume](/files/Prajna_Malettira_s_Resume.pdf){: .btn style="background-color: #946e83; color: #000 !important; border: 2px solid #000; font-weight: 600; font-size: 0.9em; margin-bottom: 20px; text-decoration: none !important;"}
+Download a compact version of my CV here: [📥 Download Resume](/files/Prajna_Malettira_s_Resume.pdf){: .btn style="background-color: #946e83; color: #000 !important; border: 2px solid #000; font-weight: 600; font-size: 0.9em; margin-bottom: 20px; text-decoration: none !important;"}
 
 Education
 ======
