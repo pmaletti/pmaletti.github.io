@@ -12,11 +12,14 @@ redirect_from:
 <!-- This creates a nice, prominent download button -->
 [**📥 Download Resume**](/files/Prajna_Malettira_s_Resume.pdf){: .btn .btn--primary style="margin-bottom: 20px;"}
 
-## Education
+Education
+======
 * **Ph.D. in Electrical and Computer Engineering**, Purdue University (May, 2028)
 * **B.Tech in Electronics and Communication Engineering**, PES University
 
-## Research Interests
+Research Interests
+======
+
 * Efficient Large Language Models
 * Neural Architecture Search
 * Model Compression via Structured Pruning
@@ -24,13 +27,42 @@ redirect_from:
 * Memorization in ML models
 * Neuromorphic Computing
 
-## Publications
-* **TraceNAS: Zero-shot LLM Pruning via Gradient Trace Correlation** *(Arxiv 2026)*
-* **TopoPrune: Robust Data Pruning via Unified Latent Space Topology** *(ArXiv 2026)*
-* **.Unifying Global Topology Manifolds and Local Persistent Homology for Data Pruning** *(NeurIPS 2025 Symmetry and Geometry in Neural Representations Workshop.)*
-* **TSkips: Efficiency through explicit temporal delay connections in spiking neural networks.** *(TMLR 2025)*
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
-## Technical Skills
+Technical Skills
+======
 * **Languages & Tools:** Python · Bash · Git · MATLAB · Linux
 * **Frameworks:** PyTorch, Hugging Face, Timm, Latex, OpenCV
 * **Computing:** Distributed Training, SLURM, High-Performance Computing (HPC)
+
+Work experience
+======
+**Graduate Research Assistant** | *Nano(neuro)electronics Research Lab (NRL), Purdue University* (Aug 2023 - Present)
+* Driving research on Neural Architecture Search (NAS), Spiking Neural Networks (SNNs), and efficient Large Language Models (LLMs).
+* Developing frameworks for structured pruning and latent space topology, leading to multiple first-author and collaborative publications.
+
+**Graduate Teaching Assistant - EPICS** | *Purdue University* (1 Year)
+* Guided undergraduate students through community-led engineering projects in the Greater Lafayette area, with a focus on fostering sustainability and practical design.
+
+**Graduate Research Assistant** | *Integrated Imaging Lab (I2Lab), Purdue University* (May 2023 - Aug 2023)
+* *PIs: Dr. Charles Bouman and Dr. Gregery Buzzard*
+* Contributed to the development of Generative Plug-and-Play (GPnP), a novel method for posterior sampling in inverse problems.
+* Implemented key image reconstruction algorithms (Expectation Maximization, PnP, Surrogate Functions, and Alternating Direction Method of Multipliers) in C.
+
+**Project Intern** | *Collins Aerospace*, Bengaluru, India (Feb 2022 - May 2022)
+* Built an Operations Framework for intelligent product segregation in the Cargo Systems department to ensure Just-in-Time process implementation.
+* Automated in-progress work orders and managed inventory for critical spares, improving the tracking of maintenance and life-cycle ownership costs.
+
+**Research and Development Intern** | *ABB*, Bengaluru, India (Sep 2021 - Dec 2021)
+* Researched and developed predictive and condition-based maintenance models in Strategic Asset Management (SAM) using machine learning.
+* Developed an algorithm using Pandas and Long Short-Term Memory (LSTM) neural networks to analyze time-series data for automated machine cycle logs.
+
+Honors & Fellowships
+======
+* **SRC Research Scholar**, *Semiconductor Research Corporation (SRC)*
+* **Millennium Fellow**, *Millennium Campus Network (MCN) & UN Academic Impact* (Aug 2021 - Nov 2021)
+  * Implemented *Project Anzen: Your Friend in the Dark* to further the United Nations Sustainable Development Goals.
