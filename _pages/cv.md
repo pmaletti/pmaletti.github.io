@@ -36,9 +36,28 @@ Research Interests
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <!-- <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
+<div class="compact-list">
+  {% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</div>
+
+<style>
+  /* This targets the specific items in your publication list */
+  .compact-list .list__item {
+    margin-bottom: -15px; /* Pulls the next item up */
+    padding-bottom: 0;     /* Removes extra bottom padding */
+  }
+
+  /* This ensures the titles don't have huge top margins */
+  .compact-list .archive__item-title {
+    margin-top: 5px; 
+    margin-bottom: 0;
+  }
+</style>
 
 Technical Skills
 ======
