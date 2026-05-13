@@ -7,6 +7,7 @@ excerpt: 'TSkips introduces a novel architectural mechanism for Spiking Neural N
 date: July, 2025
 venue: 'Transactions on Machine Learning Research'
 paperurl: 'https://openreview.net/pdf?id=hwz32S06G4'
+bibtexurl: '/files/tskips.bib'
 citation: 'Malettira, P. G., Negi, S., Ponghiran, W., & Roy, K. (2024). TSkips: Efficiency through explicit temporal delay connections in spiking neural networks. arXiv preprint arXiv:2411.16711.'
 ---
 
